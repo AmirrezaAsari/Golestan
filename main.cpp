@@ -34,13 +34,13 @@ int main() {
     	admin();
 	}
 	else if(logged_in->role == "1"){
-		//teacher();
+		cout<<"_____________________TEACHER_____________________";
 	}
 	else if(logged_in->role == "2"){
-		//student();
+		cout<<"_____________________STUDENT_____________________";
 	}
 	else{
-		cout<<"huh";
+		cout<<"EROR!";
 	}
     return 0;
 }
