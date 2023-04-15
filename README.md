@@ -14,9 +14,7 @@ the main function will get the logged in user's data and will referrence each ty
 ### admin()
 the admin function will get input and referrence to each function
 admin has 3 chioce, 1.add new calss 2.edit users 3.exit
-1. new_class()
+### new_class()
 this function is to add new classes, will ask the class name, class id, teacher's name and teacher's id from admin and will add to a linked list, and then will write it to a file to be saved
-2. edit users
+### edit_users()
 just a simple function to change user's passwords
-3. exit
-will get back to login page.
